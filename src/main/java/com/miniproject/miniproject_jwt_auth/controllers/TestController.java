@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 	@GetMapping("/all")
 	public String allAccess() {
-		return "Wlcome to Team SSD_Furious!";
+		return "Welcome to Team SSD_Furious!";
 	}
 	
 	@GetMapping("/user")
